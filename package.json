@@ -1,0 +1,42 @@
+{
+  "name": "node_grapghql",
+  "version": "1.0.0",
+  "description": "A learning project on GrapghQl (with Node)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start_local": "node -r dotenv/config app.js",
+    "nodemon_start": "nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/HERYORDEJY-DEV/node_graphql.git"
+  },
+  "keywords": [
+    "backend",
+    "api",
+    "node.js",
+    "grapghql"
+  ],
+  "author": "HERYORDEJY <heryordejy.dev@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HERYORDEJY-DEV/node_graphql/issues"
+  },
+  "homepage": "https://github.com/HERYORDEJY-DEV/node_graphql#readme",
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.9.4",
+    "@graphql-tools/schema": "^10.0.0",
+    "@graphql-tools/utils": "^10.0.7",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "graphql": "^16.8.1",
+    "mongoose": "^7.6.3"
+  },
+  "type": "module"
+}
